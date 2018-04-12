@@ -1,0 +1,63 @@
+html,body {
+    height:100%;
+    background-image: url('https://images.unsplash.com/photo-1495475973814-1f767e1f1fc6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4c2b0b96301b96820439d178663a8081&auto=format&fit=crop&w=2100&q=80');
+    background-color: black;
+    background-size: cover;
+    z-index: -2;
+}
+
+#quoteDisplay {
+    color: white;
+    font-size: 2.9em;
+    opacity: 0.80;
+}
+
+.container {
+    text-align: center;
+}
+
+#h1 {
+    color: white;
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    color: white;
+    opacity: 0.5%;
+    border-bottom: solid white;
+
+}
+
+
+h1,p{
+    max-width: 25em;
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
+#button{
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin dashed white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+  
+}
+
+#button:hover{
+    background-color: white;
+    color: black;
+    border: thin dashed white;
+    opacity: 0.8;
+}
